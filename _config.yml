@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Yaswanthkumar Sirumugai Karunakaran
-title: Masters Student in Embedded Systems Engineering
+title: Master's Student in Embedded Systems Engineering
 email: yaswanthsk04@gmail.com
 website: yaswanthsk04.github.io
 
@@ -48,7 +48,7 @@ linkedin_username: yaswanthkumar-s-k
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Yaswanthkumar and I'm a Master's Student in Embeeded Systems Engineering at University of Freiburg. 
+  Hi, my name is Yaswanthkumar and I'm a Master's Student in Embeeded Systems Engineering at University of Freiburg. 
   
   I am an Innovative and Organized Electrical & Electronics Engineer (Embedded Systems) who worked at BOSCH GLOBAL SOFTWARE TECHNOLOGY, Coimbatore as BSW Developer for Electric Steering Systems of Commercial Vehicles. I am currently working as Work Student at ETAS, where I am currently focusing on containerizing Development by using Docker for Simulation Engine Development. 
   
