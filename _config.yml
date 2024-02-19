@@ -46,7 +46,7 @@ linkedin_username: yaswanthkumar-s-k
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile_pic.jpeg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Yaswanthkumar and I'm a Master's Student in Embeeded Systems Engineering at University of Freiburg. 
   
