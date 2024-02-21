@@ -57,107 +57,64 @@ about_content: | # this will include new lines to allow paragraphs
   I am most skilled in: <mark>Automotive Software Development</mark> and <mark>Embedded Systems Pizza</mark>
 
 content:
-  - title: Projects
-    layout: list
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Super awesome project
+        link: github.com/sproogen
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Vector Tools Automation
-        caption: Mar 2021 - Jun 2021
-        description: |
-          Developed a Python-based software module to automate test case validation on Vector Tools (CANape, CANoe). This included a customized GUI for user input, automating testing using WIN32 API, and exporting verified results. Outcomes include automated testing validation for individual test cases and user parameterization up to 5 inputs.
+        title: The Boring Company
+        link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Senior Network System Administrator
+        caption: November 2017 - Present
+        quote: >
+          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
 
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
       - layout: left
-        title: Underwater ROV to Detect Drowning People
-        caption: Jun 2020 - Dec 2020
-        description: |
-          Developed a semi-autonomous Remote Operated Vehicle (ROV) to detect drowning people using sonar, thermal, and camera detection methods. The project involved designing a water-proof casing, interfacing sensors to an onboard processor, and employing computer vision with Yolo algorithms for human detection with an accuracy of 92%.
+        title: Harvard University
+        caption: 2010 - 2013
+        sub_title: BSc Computer Science
+        quote: >
+          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
-      - layout: left
-        title: Human Assistance Rover
-        caption: Feb 2020 - May 2020
-        description: |
-          Built a people follower robot using GPS coordinates and Bluetooth for personal assistance. The prototype featured a 4-wheeled rover with a rocker bogie mechanism for stability, utilizing a Jetson Nano development board, GPS, and Bluetooth sensors.
-
-      - layout: left
-        title: Charge As A Service | EV Charging Station
-        caption: Aug 2019 - Dec 2019
-        description: |
-          Implemented an AI and Blockchain technology solution for Electric Vehicle (EV) charging stations to predict and manage power demand. The project included developing a blockchain-based billing system and using CAN Protocol, I2C, and SPI for communication between the EV and the charging station.
-
-
-
-  - title: Experience
-  layout: list
-  content:
-    - layout: left
-      title: Work Student at ETAS
-      caption: Apr 2023 - Present
-      description: |
-        Focus on containerizing Development using Docker for Simulation Engine Development. Work includes Docker, Conan packages, MSVC and GCC compilers, CMake, and automated build processes.
-
-    - layout: left
-      title: Associate Software Engineer at Bosch Global Software Technologies
-      caption: Jul 2021 - Aug 2022
-      description: |
-        Developer for Servotwin Electrohydraulic Steering Systems, including platform software development, ECU components, and software testing using CAPL, Python, Jenkins, and Bitbucket.
-
-    - layout: left
-      title: Project Trainee at Bosch Global Software Technologies
-      caption: Mar 2021 - Jun 2021
-      description: |
-        Testing Automation for Steering ECU & Instrument Cluster Models, including CAPL and Python-based automation for various communication protocols.
-
-
-  - title: Education
-  layout: list
-  content:
-    - layout: left
-      title: University of Freiburg
-      caption: Oct 2022 - Present
-      sub_title: M.Sc. Embedded Systems Engineering
-      description: |
-        Focused on Embedded Systems, Microcontrollers and Microprocessors, Computer Architecture, Mobile Robotics, and AI/ML.
-
-    - layout: left
-      title: Kumaraguru College of Technology
-      caption: Aug 2017 - Jun 2021
-      sub_title: Bachelor's degree in Electrical and Electronics Engineering
-      description: |
-        Active leadership roles including President of the Student Body Association of the EEE department and Member of IoT and Embedded systems domain at IQube.
-
-  - title: Skills
-  layout: list
-  content:
-    - layout: left
-      title: Technical Skills
-      description: |
-        - Automation: Proficient in automating tasks to increase efficiency and accuracy.
-        - Electronics: Solid understanding of electronic systems and components.
-        - CAPL: Experienced in using CAPL for automotive software testing and development.
-        - Documentation: Skilled in creating detailed technical documents.
-        - Computer-Aided Design (CAD): Proficient in CAD tools for design and simulation.
-        - Artificial Intelligence (AI): Knowledge in AI principles and applications.
-        - Agile Project Management: Experienced in Agile methodologies for project management.
-        - Programming Languages: Proficient in C and C++ for software development.
-        - Embedded Systems: Extensive knowledge in designing and developing embedded systems.
-
-    - layout: left
-      title: Software & Tools
-      description: |
-        - Vector Tools (CANape, CANoe): Developed automation modules for testing.
-        - Python: Extensive use in automation, testing, and GUI development.
-        - Jenkins & Bitbucket: Used for continuous integration and version control.
-        - Docker: Utilized for containerizing development environments.
-        - MATLAB/Simulink: Employed for simulation and model-based design.
-        - CAD Tools: Experience with various CAD tools for electronic and mechanical design.
+          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
   - title: A Little More About Me
     layout: text
-    content: | 
+    content: | # this will include new lines to allow paragraphs
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Treckking
+      - Rock climbing
       - Gaming
-      - KnittTraveling
+      - Knitting
+      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+      Look at this cool image  
+      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
