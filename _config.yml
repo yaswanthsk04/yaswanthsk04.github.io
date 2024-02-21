@@ -58,31 +58,32 @@ about_content: | # this will include new lines to allow paragraphs
 
 content:
   - title: Projects
-  layout: list
-  content:
-    - layout: left
-      title: Vector Tools Automation
-      caption: Mar 2021 - Jun 2021
-      description: |
-        Developed a Python-based software module to automate test case validation on Vector Tools (CANape, CANoe). This included a customized GUI for user input, automating testing using WIN32 API, and exporting verified results. Outcomes include automated testing validation for individual test cases and user parameterization up to 5 inputs.
+    layout: list
+    content:
+      - layout: left
+        title: Vector Tools Automation
+        caption: Mar 2021 - Jun 2021
+        description: |
+          Developed a Python-based software module to automate test case validation on Vector Tools (CANape, CANoe). This included a customized GUI for user input, automating testing using WIN32 API, and exporting verified results. Outcomes include automated testing validation for individual test cases and user parameterization up to 5 inputs.
 
-    - layout: left
-      title: Underwater ROV to Detect Drowning People
-      caption: Jun 2020 - Dec 2020
-      description: |
-        Developed a semi-autonomous Remote Operated Vehicle (ROV) to detect drowning people using sonar, thermal, and camera detection methods. The project involved designing a water-proof casing, interfacing sensors to an onboard processor, and employing computer vision with Yolo algorithms for human detection with an accuracy of 92%.
+      - layout: left
+        title: Underwater ROV to Detect Drowning People
+        caption: Jun 2020 - Dec 2020
+        description: |
+          Developed a semi-autonomous Remote Operated Vehicle (ROV) to detect drowning people using sonar, thermal, and camera detection methods. The project involved designing a water-proof casing, interfacing sensors to an onboard processor, and employing computer vision with Yolo algorithms for human detection with an accuracy of 92%.
 
-    - layout: left
-      title: Human Assistance Rover
-      caption: Feb 2020 - May 2020
-      description: |
-        Built a people follower robot using GPS coordinates and Bluetooth for personal assistance. The prototype featured a 4-wheeled rover with a rocker bogie mechanism for stability, utilizing a Jetson Nano development board, GPS, and Bluetooth sensors.
+      - layout: left
+        title: Human Assistance Rover
+        caption: Feb 2020 - May 2020
+        description: |
+          Built a people follower robot using GPS coordinates and Bluetooth for personal assistance. The prototype featured a 4-wheeled rover with a rocker bogie mechanism for stability, utilizing a Jetson Nano development board, GPS, and Bluetooth sensors.
 
-    - layout: left
-      title: Charge As A Service | EV Charging Station
-      caption: Aug 2019 - Dec 2019
-      description: |
-        Implemented an AI and Blockchain technology solution for Electric Vehicle (EV) charging stations to predict and manage power demand. The project included developing a blockchain-based billing system and using CAN Protocol, I2C, and SPI for communication between the EV and the charging station.
+      - layout: left
+        title: Charge As A Service | EV Charging Station
+        caption: Aug 2019 - Dec 2019
+        description: |
+          Implemented an AI and Blockchain technology solution for Electric Vehicle (EV) charging stations to predict and manage power demand. The project included developing a blockchain-based billing system and using CAN Protocol, I2C, and SPI for communication between the EV and the charging station.
+
 
 
   - title: Experience
