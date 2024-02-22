@@ -69,6 +69,15 @@ content:
         description: | # this will include new lines to allow paragraphs
           Developed a Python-based software module to automate test case validation on Vector Tools (CANape, CANoe). This included a customized GUI for user input, automating testing using WIN32 API, and exporting verified results. Outcomes include automated testing validation for individual test cases and user parameterization up to 5 inputs.
 
+      - layout: top-middle
+        title: Vector Tools Automation
+        caption: Mar 2021 - Jun 2021
+        link: github.com/yaswanthsk04/Python_Vector_Canoe_Interface
+        quote: >
+          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          Developed a Python-based software module to automate test case validation on Vector Tools (CANape, CANoe). This included a customized GUI for user input, automating testing using WIN32 API, and exporting verified results. Outcomes include automated testing validation for individual test cases and user parameterization up to 5 inputs.
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
